@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="45dp"
+
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="工地："
+            android:textColor="@color/black"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/wlsc_address_edit"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="输入工地"
+            />
+
+        <Button
+            android:id="@+id/wlsc_address_button"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:text="语音"
+            android:textColor="@color/white"
+            android:background="@drawable/button_blue_selector"
+            android:layout_gravity="center_vertical"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="45dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="内容："
+            android:textColor="@color/black"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/wlsc_content_edit"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="输入内容"
+            />
+
+        <Button
+            android:id="@+id/wlsc_content_button"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:text="语音"
+            android:textColor="@color/white"
+            android:background="@drawable/button_blue_selector"
+            android:layout_gravity="center_vertical"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="45dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="单位："
+            android:textColor="@color/black"
+            android:gravity="center"/>
+
+        <Spinner
+            android:id="@+id/wlsc_dw_edit"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:hint="输入"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:text="语音"
+            android:textColor="@color/white"
+            android:background="@drawable/button_blue_selector"
+            android:layout_gravity="center_vertical"
+            android:visibility="invisible"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="45dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="数量："
+            android:textColor="@color/black"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/wlsc_count_edit"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="输入数量"
+            android:inputType="numberDecimal"
+            />
+
+        <Button
+            android:id="@+id/wlsc_count_button"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:text="语音"
+            android:textColor="@color/white"
+            android:background="@drawable/button_blue_selector"
+            android:layout_gravity="center_vertical"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="45dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="单价："
+            android:textColor="@color/black"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/wlsc_price_edit"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="numberDecimal"
+            android:hint="输入单价"
+            />
+
+        <Button
+            android:id="@+id/wlsc_price_button"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:text="语音"
+            android:textColor="@color/white"
+            android:background="@drawable/button_blue_selector"
+            android:layout_gravity="center_vertical"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="45dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="合计："
+            android:textColor="@color/black"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/wlsc_hj_edit"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="numberDecimal"
+            />
+
+        <Button
+            android:id="@+id/wlsc_hj_button"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:text="语音"
+            android:textColor="@color/white"
+            android:background="@drawable/button_blue_selector"
+            android:layout_gravity="center_vertical"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="45dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="备注："
+            android:textColor="@color/black"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/wlsc_bz_edit"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="输入备注"
+            />
+
+        <Button
+            android:id="@+id/wlsc_bz_button"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:text="语音"
+            android:textColor="@color/white"
+            android:background="@drawable/button_blue_selector"
+            android:layout_gravity="center_vertical"
+            />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/wslc_add_hang"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="添加该行数据"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_blue_selector"
+
+        />
+
+    <Button
+        android:id="@+id/wslc_add_table"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="合并表数据"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_orange_selector"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/wslc_open_table"
+            android:layout_width="0dip"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:text="打开表"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_blue_selector"
+            />
+
+        <Button
+            android:id="@+id/wslc_upload_table"
+            android:layout_width="0dip"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:text="上传表"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_blue_selector"
+            />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/wslc_reload_table"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="重新建表"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_blue_selector"
+        />
+
+</LinearLayout>
+</ScrollView>

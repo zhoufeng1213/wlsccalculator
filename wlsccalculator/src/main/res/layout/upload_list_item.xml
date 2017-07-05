@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">
+
+    <TextView
+        android:id="@+id/upload_list_xh"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="1"
+        android:layout_gravity="center_vertical"
+        android:textColor="@color/black"
+        />
+
+
+    <TextView
+        android:id="@+id/upload_list_name"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="left"
+        android:layout_gravity="center_vertical"
+        android:text="123"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        />
+
+    <Button
+        android:id="@+id/upload_list_btn"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:text="上传"
+        android:layout_margin="5dp"
+        android:textColor="@color/white"
+        android:background="@drawable/button_blue_selector"
+        android:layout_gravity="center_vertical"
+        />
+
+</LinearLayout>

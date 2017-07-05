@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="list_background">#E5E5E5</color>
+    <color name="black">#000000</color>
+
+
+    <drawable name="transparent_background_cyan">#c0c0c0ff</drawable>
+    <drawable name="translucent_background">#C2CE99</drawable>
+    <drawable name="pink">#FFC8FF</drawable>
+    <drawable name="darkgreen">#008800</drawable>
+    <drawable name="darkgray">#404040ff</drawable>
+    <drawable name="black">#333333</drawable>
+    <drawable name="red">#ff00ff</drawable>
+    <drawable name="green">#0ff0ff</drawable>
+    <drawable name="lightgray">#c0c0c0ff</drawable>
+    <drawable name="white_pic">#ffffffff</drawable>
+    <drawable name="blue">#00ffff</drawable>
+    <drawable name="gray">#808080ff</drawable>
+
+    <color name="cg_white">#ffffffff</color>
+    <color name="cg_black">#ff000000</color>
+    <color name="cg_grey_light">#ffefefef</color>
+    <color name="cg_grey">#ff58616d</color>
+    <color name="cg_gray">#ff888888</color>
+    <color name="cg_red">#ff0000</color>
+    <color name="cg_cyan">#00ADEE</color>
+    <color name="cg_darkgrey">#ff404040</color>
+    <color name="cg_toasterro">#ff9fd524</color>
+    <color name="cg_lightgrey">#ff888888</color>
+    <color name="cg_lightransparent">#a0000000</color>
+
+    <!-- 数字城管颜色搭配 -->
+    <color name="cg_green">#018904</color>
+    <color name="cg_blue">#0086cb</color>
+    <color name="cg_orange">#eb671b</color>
+    <color name="cg_silvery">#999997</color>
+
+    <color name="whiteColor">#ffffff</color>
+    <color name="window_bg">#fff0f3f6</color>
+    <color name="white">#ffffffff</color>
+    <color name="white_ghost">#F8F8FF</color>
+    <color name="blue">#ffccddff</color>
+    <color name="grey">#ff58616d</color>
+    <color name="gray">#ff888888</color>
+    <color name="pink">#FFC8FF</color>
+    <color name="red">#ff0000</color>
+    <color name="green">#0ff0ff</color>
+    <color name="cyan">#00ADEE</color>
+    <color name="orange_new">#bfed8c17</color>
+    <color name="blue_new">#bf1096d3</color>
+    <color name="yellow_mplist_bg">#fffcc9</color>
+    <color name="textview_grey">#333333</color>
+    <color name="layout_bg">#f7f7f7</color>
+    <color name="list_czmp_color_blue">#0f94cf</color>
+
+    <!--     24ABE2 00ADEE -->
+
+    <color name="listitem_name_normal">#ff414141</color>
+    <color name="listitem_name_focused">#ff414141</color>
+    <color name="listitem_name_pressed">#ffffffff</color>
+    <color name="listitem_time_normal">#ff6c6c6c</color>
+    <color name="listitem_time_focused">#ff6c6c6c</color>
+    <color name="listitem_time_pressed">#ffffffff</color>
+    <color name="listitem_text_normal">#ff414141</color>
+    <color name="listitem_root_text_normal">#ff414141</color>
+    <color name="listitem_text_focused">#ff414141</color>
+    <color name="listitem_text_pressed">#ffffffff</color>
+    <color name="listitem_text_bottom">#ff989899</color>
+    <color name="listitem_text_bottom_pressed">#ffffffff</color>
+
+    <color name="text_drag_refresh_big">#ff414141</color>
+    <color name="text_drag_refresh_small">#ff989899</color>
+
+    <color name="darkgrey">#ff404040</color>
+    <color name="toasterro">#ff9fd524</color>
+    <color name="lightgrey">#ff888888</color>
+    <color name="semitransparent">#80000000</color>
+    <color name="lightransparent">#a0000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="ChattingSenderTextColor">#ff081c52</color>
+    <color name="ConversationVoiceTextColor">#ff339900</color>
+    <color name="navpage">#ffe1e8eb</color>
+    <color name="shake_info_text">#ffa1a1a1</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="chatting_bg_purecolor">#ffcbe5f2</color>
+    <color name="plugin_mail_grey">#ff909090</color>
+    <color name="plugin_readerapp_header_color_news">#ff91cd1a</color>
+    <color name="plugin_readerapp_header_color_weibo">#ff529fff</color>
+    <color name="expandbaseAdapter_blue">#e3f0f7</color>
+    <color name="expandbaseAdapter_gray">#fbfbfb</color>
+    <color name="xlgl_yellow">#ffc000</color>
+    <color name="xlgl_green">#92d14f</color>
+    <color name="xlgl_red">#e37979</color>
+
+    <color name="cg_blue_light">#ff0592c1</color>
+</resources>
