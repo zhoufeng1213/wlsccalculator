@@ -1,22 +1,7 @@
-# ZzExcelCreator
-Excel表格生成工具
-
+Excel表格生成工具，引用的是下面的项目
 项目地址:https://github.com/zhouzhuo810/ZzExcelCreator
-（欢迎star!）
-
-效果图：
-
-![excel1.jpg](http://upload-images.jianshu.io/upload_images/2788864-5c0055e4dcc74d5a.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-![excel2.jpg](http://upload-images.jianshu.io/upload_images/2788864-edff815539021b6a.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-![excel3.jpg](http://upload-images.jianshu.io/upload_images/2788864-3da6e6ab4db88b22.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-最近做项目用到jxl.jar来生成Excel表格；
-
-但是发现jxl源码都没有注释的，方法也没有说明，
-虽然最后在网上找到了对应的方法。
-
-不过这不是我的style，果断自己封装一下，添加注释。
-
+语音引用的是下面的项目：
+http://blog.csdn.net/highboys/article/details/52145038
 
 下面介绍一下用法：
 
